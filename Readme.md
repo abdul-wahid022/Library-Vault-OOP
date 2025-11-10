@@ -26,59 +26,63 @@ A comprehensive C++ based Library Management System implementing Object-Oriented
 ## 🖥️ System Screenshots
 
 ### Main Menu
-![Main Menu](screenshots/main_menu.png)
+![Main Menu](Screenshot%202025-11-10%20211940.png)
 *Main menu showing Administrator, Student Login, Student Register, and Exit options*
 
 ### Administrator Panel
 
 #### Admin Login
-![Admin Login](screenshots/admin_login.png)
+![Admin Login](Screenshot%202025-11-10%20211632.png)
 *Secure administrator login with email and password*
 
 #### Admin Menu
-![Admin Menu](screenshots/admin_menu.png)
+![Admin Menu](Screenshot%202025-11-10%20211540.png)
 *Administrator dashboard with all management options*
 
 #### Adding Books
-![Adding Fiction Book](screenshots/add_fiction_book.png)
+![Adding Fiction Book](Screenshot%202025-11-10%20211526.png)
 *Adding a fiction book with all details including genre and rating*
 
-![Adding Non-Fiction Book](screenshots/add_nonfiction_book.png)
+![Adding Non-Fiction Book](Screenshot%202025-11-10%20211511.png)
 *Adding a non-fiction book with subject and rating*
 
 #### Viewing Books
-![Display All Books](screenshots/display_all_books.png)
+![Display All Books](Screenshot%202025-11-10%20211456.png)
 *Complete library catalog showing all books*
 
-![Fiction Books](screenshots/fiction_books.png)
+![Fiction Books](Screenshot%202025-11-10%20211439.png)
 *Specialized view of fiction books with genres*
 
-![Non-Fiction Books](screenshots/nonfiction_books.png)
+![Non-Fiction Books](Screenshot%202025-11-10%20211355.png)
 *Specialized view of non-fiction books with subjects*
-
-#### Student Management
-![Registered Students](screenshots/registered_students.png)
-*List of all registered students with their details and subscription status*
 
 ### Student Panel
 
-#### Student Registration
-![Student Registration](screenshots/student_registration.png)
-*New student registration with subscription plan selection*
-
 #### Student Login
-![Student Login](screenshots/student_login.png)
+![Student Login](Screenshot%202025-11-10%20211111.png)
 *Student login showing welcome message and subscription type*
 
-![Student Menu](screenshots/student_menu.png)
+#### Student Menu
+![Student Menu](Screenshot%202025-11-10%20210730.png)
 *Student dashboard for issuing and returning books*
 
 #### Book Operations
-![Issue Book](screenshots/issue_book.png)
+![Issue Book](Screenshot%202025-11-10%20211256.png)
 *Student issuing a book from the library*
 
-![Return Book](screenshots/return_book.png)
+![Return Book](Screenshot%202025-11-10%20212323.png)
 *Student returning a book to the library*
+
+#### Student Registration
+![Student Registration](Screenshot%202025-11-10%20212214.png)
+*New student registration with subscription plan selection*
+
+![New Student Login](Screenshot%202025-11-10%20212149.png)
+*Newly registered student logging in with Premium subscription*
+
+#### Student Management
+![Registered Students](Screenshot%202025-11-10%20212039.png)
+*List of all registered students with their details and subscription status*
 
 ## 🏗️ Project Structure
 
@@ -232,7 +236,7 @@ g++ enhanced_main.cpp enhanced_library.cpp enhanced_globals.cpp book.cpp student
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@yourusername](https://github.com/abdul-wahid022)
 
 ## 📄 License
 
@@ -248,3 +252,4 @@ Give a ⭐️ if you like this project!
 
 ---
 
+**Note**: All screenshots are included in the repository with their original filenames for reference.
