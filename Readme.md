@@ -404,6 +404,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 Give a ⭐️ if you like this project!
 
-**Made with ❤️ by Abdul Wahid**
+**Made by Abdul Wahid**
 
 </div>
