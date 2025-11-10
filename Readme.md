@@ -26,7 +26,7 @@ A comprehensive C++ based Library Management System implementing Object-Oriented
 ## 🖥️ System Screenshots
 
 ### Main Menu
-![screenshots](Screenshot%202025-11-10%20211940.png)
+![Main menu](screenshots/Screenshot%202025-11-10%20211940.png)
 *Main menu showing Administrator, Student Login, Student Register, and Exit options*
 
 ### Administrator Panel
