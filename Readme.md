@@ -62,15 +62,15 @@ A comprehensive C++ based Library Management System implementing Object-Oriented
 ![Student Login](Screenshot%202025-11-10%20211111.png)
 *Student login showing welcome message and subscription type*
 
-#### Student Menu
-![Student Menu](Screenshot%202025-11-10%20210730.png)
-*Student dashboard for issuing and returning books*
+#### Registered Students List
+![Registered Students](Screenshot%202025-11-10%20212039.png)
+*List of all registered students with their details and subscription status*
 
-#### Book Operations
-![Issue Book](Screenshot%202025-11-10%20211256.png)
+#### Student Menu & Book Operations
+![Student Menu - Issue Book](Screenshot%202025-11-10%20211940.png)
 *Student issuing a book from the library*
 
-![Return Book](Screenshot%202025-11-10%20212323.png)
+![Student Menu - Return Book](Screenshot%202025-11-10%20212039.png)
 *Student returning a book to the library*
 
 #### Student Registration
@@ -79,10 +79,6 @@ A comprehensive C++ based Library Management System implementing Object-Oriented
 
 ![New Student Login](Screenshot%202025-11-10%20212149.png)
 *Newly registered student logging in with Premium subscription*
-
-#### Student Management
-![Registered Students](Screenshot%202025-11-10%20212039.png)
-*List of all registered students with their details and subscription status*
 
 ## 🏗️ Project Structure
 
@@ -100,6 +96,7 @@ library-management-system/
 ├── student.cpp                # Student class implementation
 ├── fiction.txt                # Predefined fiction books data
 ├── nonfiction.txt             # Predefined non-fiction books data
+├── screenshots/               # Project screenshots
 └── README.md                  # Project documentation
 ```
 
@@ -235,8 +232,9 @@ g++ enhanced_main.cpp enhanced_library.cpp enhanced_globals.cpp book.cpp student
 
 ## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/abdul-wahid022)
+**Abdul Wahid**
+- GitHub: [@abdul-wahid022](https://github.com/abdul-wahid022)
+- Repository: [Library-Vault-OOP](https://github.com/abdul-wahid022/Library-Vault-OOP)
 
 ## 📄 License
 
@@ -244,7 +242,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/abdul-wahid022/Library-Vault-OOP/issues).
 
 ## ⭐ Show your support
 
@@ -252,4 +250,4 @@ Give a ⭐️ if you like this project!
 
 ---
 
-**Note**: All screenshots are included in the repository with their original filenames for reference.
+**Note**: All screenshots are included in the repository. Simply upload your screenshot images to the repository, and they will automatically display in this README.
