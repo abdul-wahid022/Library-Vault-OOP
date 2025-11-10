@@ -32,52 +32,52 @@ A comprehensive C++ based Library Management System implementing Object-Oriented
 ### Administrator Panel
 
 #### Admin Login
-![Admin Login](Screenshot%202025-11-10%20211632.png)
+![Admin Login](screenshots/Screenshot%202025-11-10%20211632.png)
 *Secure administrator login with email and password*
 
 #### Admin Menu
-![Admin Menu](Screenshot%202025-11-10%20211540.png)
+![Admin Menu](screenshots/Screenshot%202025-11-10%20211540.png)
 *Administrator dashboard with all management options*
 
 #### Adding Books
-![Adding Fiction Book](Screenshot%202025-11-10%20211526.png)
+![Adding Fiction Book](screenshots/Screenshot%202025-11-10%20211526.png)
 *Adding a fiction book with all details including genre and rating*
 
-![Adding Non-Fiction Book](Screenshot%202025-11-10%20211511.png)
+![Adding Non-Fiction Book](screenshots/Screenshot%202025-11-10%20211511.png)
 *Adding a non-fiction book with subject and rating*
 
 #### Viewing Books
-![Display All Books](Screenshot%202025-11-10%20211456.png)
+![Display All Books](screenshots/Screenshot%202025-11-10%20211456.png)
 *Complete library catalog showing all books*
 
 ![Fiction Books](Screenshot%202025-11-10%20211439.png)
 *Specialized view of fiction books with genres*
 
-![Non-Fiction Books](Screenshot%202025-11-10%20211355.png)
+![Non-Fiction Books](screenshots/Screenshot%202025-11-10%20211355.png)
 *Specialized view of non-fiction books with subjects*
 
 ### Student Panel
 
 #### Student Login
-![Student Login](Screenshot%202025-11-10%20211111.png)
+![Student Login](screenshots/Screenshot%202025-11-10%20211111.png)
 *Student login showing welcome message and subscription type*
 
 #### Registered Students List
-![Registered Students](Screenshot%202025-11-10%20212039.png)
+![Registered Students](screenshots/Screenshot%202025-11-10%20212039.png)
 *List of all registered students with their details and subscription status*
 
 #### Student Menu & Book Operations
-![Student Menu - Issue Book](Screenshot%202025-11-10%20211940.png)
+![Student Menu - Issue Book](screenshots/Screenshot%202025-11-10%20211940.png)
 *Student issuing a book from the library*
 
-![Student Menu - Return Book](Screenshot%202025-11-10%20212039.png)
+![Student Menu - Return Book](screenshots/Screenshot%202025-11-10%20212039.png)
 *Student returning a book to the library*
 
 #### Student Registration
-![Student Registration](Screenshot%202025-11-10%20212214.png)
+![Student Registration](screenshots/Screenshot%202025-11-10%20212214.png)
 *New student registration with subscription plan selection*
 
-![New Student Login](Screenshot%202025-11-10%20212149.png)
+![New Student Login](screenshots/Screenshot%202025-11-10%20212149.png)
 *Newly registered student logging in with Premium subscription*
 
 ## 🏗️ Project Structure
