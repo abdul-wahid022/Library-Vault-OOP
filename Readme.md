@@ -1,10 +1,26 @@
 # 📚 Library Management System with OOP
 
-A comprehensive C++ based Library Management System implementing Object-Oriented Programming concepts including inheritance, polymorphism, operator overloading, templates, and dynamic memory management.
+<div align="center">
+
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![OOP](https://img.shields.io/badge/OOP-Concepts-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+
+A comprehensive C++ based Library Management System implementing Object-Oriented Programming concepts including **inheritance**, **polymorphism**, **operator overloading**, **templates**, and **dynamic memory management**.
+
+[Features](#-features) • [Screenshots](#-system-screenshots) • [Installation](#-how-to-compile-and-run) • [Documentation](#-technical-implementation)
+
+</div>
+
+---
 
 ## 🌟 Features
 
-### Administrator Features
+<table>
+<tr>
+<td width="50%">
+
+### 👨‍💼 Administrator Features
 - ➕ Add new books (Fiction & Non-Fiction)
 - 📖 Display all library books
 - 📚 View fiction books with ratings and genres
@@ -12,141 +28,214 @@ A comprehensive C++ based Library Management System implementing Object-Oriented
 - 👥 View list of registered students
 - 🔐 Secure admin login
 
-### Student Features
+</td>
+<td width="50%">
+
+### 👨‍🎓 Student Features
 - 📝 Student registration with subscription plans
 - 🔑 Secure student login
 - 📤 Issue books from library
 - 📥 Return books to library
 - 💳 Subscription management (Basic, Premium, Premium Plus)
 
-### Book Categories
+</td>
+</tr>
+</table>
+
+### 📖 Book Categories
 - **Fiction Books**: Include genre and rating
 - **Non-Fiction Books**: Include subject and rating
 
+---
+
 ## 🖥️ System Screenshots
 
-### Main Menu
-![Main menu](screenshots/Screenshot%202025-11-10%20211940.png)
+### 🏠 Main Menu
+
+<div align="center">
+<img src="screenshots/Screenshot%202025-11-10%20211940.png" alt="Main Menu" width="700"/>
+
 *Main menu showing Administrator, Student Login, Student Register, and Exit options*
+</div>
 
-### Administrator Panel
+---
 
-#### Admin Login
-![Admin Login](screenshots/Screenshot%202025-11-10%20211632.png)
-*Secure administrator login with email and password*
+## 👨‍💼 Administrator Panel
 
-#### Admin Menu
-![Admin Menu](screenshots/Screenshot%202025-11-10%20211540.png)
-*Administrator dashboard with all management options*
+### 🔐 Admin Login & Dashboard
 
-#### Adding Books
-![Adding Fiction Book](screenshots/Screenshot%202025-11-10%20211526.png)
-*Adding a fiction book with all details including genre and rating*
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211632.png" alt="Admin Login" width="100%"/>
+<p align="center"><b>Admin Login</b><br/>Secure administrator authentication</p>
+</td>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211540.png" alt="Admin Menu" width="100%"/>
+<p align="center"><b>Admin Dashboard</b><br/>Full management control panel</p>
+</td>
+</tr>
+</table>
 
-![Adding Non-Fiction Book](screenshots/Screenshot%202025-11-10%20211511.png)
-*Adding a non-fiction book with subject and rating*
+### 📚 Book Management
 
-#### Viewing Books
-![Display All Books](screenshots/Screenshot%202025-11-10%20211456.png)
-*Complete library catalog showing all books*
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211526.png" alt="Add Fiction Book" width="100%"/>
+<p align="center"><b>Add Fiction Book</b><br/>Add books with genre and rating</p>
+</td>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211511.png" alt="Add Non-Fiction Book" width="100%"/>
+<p align="center"><b>Add Non-Fiction Book</b><br/>Add books with subject and rating</p>
+</td>
+</tr>
+</table>
 
-![Fiction Books](Screenshot%202025-11-10%20211439.png)
-*Specialized view of fiction books with genres*
+### 📖 View Library Collections
 
-![Non-Fiction Books](screenshots/Screenshot%202025-11-10%20211355.png)
-*Specialized view of non-fiction books with subjects*
+<div align="center">
+<img src="screenshots/Screenshot%202025-11-10%20211456.png" alt="All Books" width="700"/>
 
-### Student Panel
+**Complete Library Catalog** - View all books in the system
+</div>
 
-#### Student Login
-![Student Login](screenshots/Screenshot%202025-11-10%20211111.png)
-*Student login showing welcome message and subscription type*
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211439.png" alt="Fiction Books" width="100%"/>
+<p align="center"><b>Fiction Collection</b><br/>Browse fiction books with genres</p>
+</td>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211355.png" alt="Non-Fiction Books" width="100%"/>
+<p align="center"><b>Non-Fiction Collection</b><br/>Browse non-fiction books with subjects</p>
+</td>
+</tr>
+</table>
 
-#### Registered Students List
-![Registered Students](screenshots/Screenshot%202025-11-10%20212039.png)
-*List of all registered students with their details and subscription status*
+---
 
-#### Student Menu & Book Operations
-![Student Menu - Issue Book](screenshots/Screenshot%202025-11-10%20211940.png)
-*Student issuing a book from the library*
+## 👨‍🎓 Student Panel
 
-![Student Menu - Return Book](screenshots/Screenshot%202025-11-10%20212039.png)
-*Student returning a book to the library*
+### 🔑 Student Authentication
 
-#### Student Registration
-![Student Registration](screenshots/Screenshot%202025-11-10%20212214.png)
-*New student registration with subscription plan selection*
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211111.png" alt="Student Login" width="100%"/>
+<p align="center"><b>Student Login</b><br/>Secure student authentication portal</p>
+</td>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20212149.png" alt="New Student Login" width="100%"/>
+<p align="center"><b>Welcome Screen</b><br/>Premium subscription status display</p>
+</td>
+</tr>
+</table>
 
-![New Student Login](screenshots/Screenshot%202025-11-10%20212149.png)
-*Newly registered student logging in with Premium subscription*
+### 📚 Book Operations
+
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20211940.png" alt="Issue Book" width="100%"/>
+<p align="center"><b>Issue Book</b><br/>Borrow books from library</p>
+</td>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20212039.png" alt="Return Book" width="100%"/>
+<p align="center"><b>Return Book</b><br/>Return borrowed books</p>
+</td>
+</tr>
+</table>
+
+### 📝 Registration & Student Management
+
+<table>
+<tr>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20212214.png" alt="Student Registration" width="100%"/>
+<p align="center"><b>New Student Registration</b><br/>Register with subscription plans</p>
+</td>
+<td width="50%">
+<img src="screenshots/Screenshot%202025-11-10%20212039.png" alt="Students List" width="100%"/>
+<p align="center"><b>Registered Students</b><br/>View all registered students</p>
+</td>
+</tr>
+</table>
+
+---
 
 ## 🏗️ Project Structure
 
 ```
-library-management-system/
+Library-Vault-OOP/
 │
-├── enhanced_main.cpp          # Main program file
-├── enhanced_library.h         # Library class header
-├── enhanced_library.cpp       # Library class implementation
-├── enhanced_globals.h         # Global variables and arrays header
-├── enhanced_globals.cpp       # Global functions implementation
-├── book.h                     # Book class hierarchy header
-├── book.cpp                   # Book class implementation
-├── student.h                  # Student class header
-├── student.cpp                # Student class implementation
-├── fiction.txt                # Predefined fiction books data
-├── nonfiction.txt             # Predefined non-fiction books data
-├── screenshots/               # Project screenshots
-└── README.md                  # Project documentation
+├── 📄 enhanced_main.cpp          # Main program file
+├── 📄 enhanced_library.h         # Library class header
+├── 📄 enhanced_library.cpp       # Library class implementation
+├── 📄 enhanced_globals.h         # Global variables and arrays header
+├── 📄 enhanced_globals.cpp       # Global functions implementation
+├── 📄 book.h                     # Book class hierarchy header
+├── 📄 book.cpp                   # Book class implementation
+├── 📄 student.h                  # Student class header
+├── 📄 student.cpp                # Student class implementation
+├── 📄 fiction.txt                # Predefined fiction books data
+├── 📄 nonfiction.txt             # Predefined non-fiction books data
+├── 📁 screenshots/               # Project screenshots
+└── 📄 README.md                  # Project documentation
 ```
+
+---
 
 ## 🔧 Technical Implementation
 
 ### Object-Oriented Concepts Used
 
-1. **Classes and Objects**
-   - `EnhancedLibrary`: Main library management class
-   - `Book`: Abstract base class for books
-   - `fiction_book`: Derived class for fiction books
-   - `non_fiction_book`: Derived class for non-fiction books
-   - `Student`: Student management class
+<table>
+<tr>
+<td width="50%">
 
-2. **Inheritance**
-   - `fiction_book` and `non_fiction_book` inherit from `Book`
-   - Implements polymorphic behavior through virtual functions
+#### 🎯 Core OOP Concepts
+- **Classes and Objects**
+  - `EnhancedLibrary`: Main library management
+  - `Book`: Abstract base class
+  - `fiction_book`: Fiction book management
+  - `non_fiction_book`: Non-fiction book management
+  - `Student`: Student management
 
-3. **Polymorphism**
-   - Pure virtual function `displayDetails()` in base `Book` class
-   - Overridden in derived classes for specialized display
+- **Inheritance**
+  - Multi-level class hierarchy
+  - Polymorphic behavior implementation
 
-4. **Operator Overloading**
-   - Assignment operator (`=`)
-   - Comparison operators (`==`, `!=`, `<`, `>`)
-   - Stream insertion operator (`<<`)
+</td>
+<td width="50%">
 
-5. **Templates**
-   - `DynamicArray<T>`: Template class for dynamic arrays
-   - `displayArray<T>()`: Template function for displaying arrays
-   - `bubbleSort<T>()`: Template function for sorting
-   - `binarySearch<T>()`: Template function for searching
+#### ⚙️ Advanced Features
+- **Polymorphism**
+  - Virtual functions
+  - Runtime binding
 
-6. **Dynamic Memory Management**
-   - Dynamic arrays with automatic resizing
-   - Copy constructors and destructors
-   - Memory cleanup functions
+- **Operator Overloading**
+  - Assignment (`=`)
+  - Comparison (`==`, `!=`, `<`, `>`)
+  - Stream insertion (`<<`)
 
-7. **Constructors**
-   - Default constructors
-   - Parameterized constructors
-   - Copy constructors
+- **Templates**
+  - Generic dynamic arrays
+  - Template functions for sorting & searching
 
-8. **Friend Functions**
-   - `operator<<` for output formatting
-   - `displayBookWithDetails()` for enhanced display
+</td>
+</tr>
+</table>
+
+---
 
 ## 💾 Data Files
 
-### fiction.txt Format
+<table>
+<tr>
+<td width="50%">
+
+### 📖 fiction.txt Format
 ```
 [Book ID]
 [Book Name]
@@ -157,7 +246,10 @@ library-management-system/
 [Genre]
 ```
 
-### nonfiction.txt Format
+</td>
+<td width="50%">
+
+### 📘 nonfiction.txt Format
 ```
 [Book ID]
 [Book Name]
@@ -168,25 +260,50 @@ library-management-system/
 [Subject]
 ```
 
+</td>
+</tr>
+</table>
+
+---
+
 ## 🔐 Default Credentials
 
-### Administrator
+<table>
+<tr>
+<td width="50%">
+
+### 👨‍💼 Administrator
 - **Email**: `abdul@gmail.com`
 - **Password**: `abdul`
 
-### Sample Student (Pre-registered)
+</td>
+<td width="50%">
+
+### 👨‍🎓 Sample Student
 - **Email**: `shoaib@student.com`
 - **Password**: `shoaib123`
 - **Roll No**: 1001
 - **Subscription**: Premium
 
+</td>
+</tr>
+</table>
+
+---
+
 ## 💳 Subscription Plans
 
-| Plan | Price | Features |
-|------|-------|----------|
+<div align="center">
+
+| Plan | 💰 Price | 📋 Features |
+|:----:|:--------:|:------------|
 | **Basic** | Free | Basic book access |
 | **Premium** | $10/month | Extended access and features |
 | **Premium Plus** | $20/month | Full access with premium features |
+
+</div>
+
+---
 
 ## 🚀 How to Compile and Run
 
@@ -202,52 +319,91 @@ g++ enhanced_main.cpp enhanced_library.cpp enhanced_globals.cpp book.cpp student
 3. Ensure `fiction.txt` and `nonfiction.txt` are in the same directory
 4. Build and run the project
 
+---
+
 ## 📋 Prerequisites
 
+<div align="center">
+
+![C++11](https://img.shields.io/badge/C++-11%20or%20later-blue?style=flat-square)
+![Compiler](https://img.shields.io/badge/Compiler-GCC%20%7C%20MinGW%20%7C%20MSVC-orange?style=flat-square)
+
+</div>
+
 - C++ Compiler (GCC/MinGW/MSVC)
-- C++11 or later
+- C++11 or later standard
 - Text files: `fiction.txt` and `nonfiction.txt` in the project directory
+
+---
 
 ## 🎯 Key Features Implementation
 
-### Dynamic Memory Management
-- Arrays automatically resize when capacity is reached
-- Proper memory cleanup on program exit
-- Copy constructors for deep copying
+<table>
+<tr>
+<td width="33%">
 
-### Input Validation
-- Integer input validation with error handling
-- String input using `getline()` for spaces
-- Login credential verification
+### 🔄 Dynamic Memory
+- Auto-resizing arrays
+- Proper memory cleanup
+- Deep copy constructors
 
-### File Handling
-- Loading predefined books from text files
-- Handling Windows line endings (`\r\n`)
-- Error handling for file operations
+</td>
+<td width="33%">
 
-### Book Management
-- Unique book IDs
-- Issue/return tracking
-- Student association with issued books
+### ✅ Input Validation
+- Integer validation
+- String handling
+- Credential verification
+
+</td>
+<td width="33%">
+
+### 📁 File Handling
+- Text file parsing
+- Error handling
+- Windows compatibility
+
+</td>
+</tr>
+</table>
+
+---
 
 ## 👨‍💻 Author
 
-**Abdul Wahid**
-- GitHub: [@abdul-wahid022](https://github.com/abdul-wahid022)
-- Repository: [Library-Vault-OOP](https://github.com/abdul-wahid022/Library-Vault-OOP)
+<div align="center">
+
+### Abdul Wahid
+
+[![GitHub](https://img.shields.io/badge/GitHub-abdul--wahid022-181717?style=for-the-badge&logo=github)](https://github.com/abdul-wahid022)
+[![Repository](https://img.shields.io/badge/Repository-Library--Vault--OOP-blue?style=for-the-badge&logo=github)](https://github.com/abdul-wahid022/Library-Vault-OOP)
+
+</div>
+
+---
 
 ## 📄 License
 
+<div align="center">
+
 This project is open source and available under the [MIT License](LICENSE).
+
+</div>
+
+---
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/abdul-wahid022/Library-Vault-OOP/issues).
 
+---
+
 ## ⭐ Show your support
+
+<div align="center">
 
 Give a ⭐️ if you like this project!
 
----
+**Made with ❤️ by Abdul Wahid**
 
-**Note**: All screenshots are included in the repository. Simply upload your screenshot images to the repository, and they will automatically display in this README.
+</div>
